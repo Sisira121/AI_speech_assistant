@@ -1,5 +1,4 @@
 whisper
-pyaudio
 numpy
 wave
 sounddevice
