@@ -1,4 +1,8 @@
-whisper
+openai-whisper
+torch
+torchaudio
+torchvision
+ffmpeg-python
 numpy
 wave
 sounddevice
