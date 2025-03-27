@@ -8,3 +8,4 @@ wave
 sounddevice
 google-generativeai
 streamlit
+streamlit-webrtc
