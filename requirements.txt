@@ -3,6 +3,4 @@ pyaudio
 numpy
 wave
 google-generativeai
-tempfile
-pyttsx3
 streamlit
