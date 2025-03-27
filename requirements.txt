@@ -2,5 +2,6 @@ whisper
 pyaudio
 numpy
 wave
+sounddevice
 google-generativeai
 streamlit
