@@ -5,7 +5,11 @@ import wave
 import google.generativeai as genai
 import tempfile
 import os
-import streamlit as st
+import streamlit as stimport streamlit as st
+from streamlit_webrtc import webrtc_streamer
+
+webrtc_streamer(key="speech")
+
 
 # Load Whisper model
 model = whisper.load_model("base")
