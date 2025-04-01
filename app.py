@@ -10,6 +10,11 @@ from streamlit_webrtc import webrtc_streamer
 
 webrtc_streamer(key="speech")
 
+# Streamlit UI
+st.set_page_config(page_title="AI Speech Assistant", page_icon="🎙️", layout="wide")
+st.title("🎤 AI Speech-to-Text & Chatbot")
+st.markdown("## Speak, Transcribe, and Chat with AI 🤖")
+st.write("Click the button below to record your voice. The AI will transcribe it and generate a response!")
 
 # Load Whisper model
 model = whisper.load_model("base")
